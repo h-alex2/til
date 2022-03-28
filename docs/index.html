@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <!-- Theme: Defaults -->
+    <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css"
+    />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@900&family=Song+Myung&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="http://example.com/myicon.png" />
+    <style>
+      /* .sidebar ul {
+      margin-left: 30px;
+    } */
+      .sidebar ul li ul {
+        margin-left: 0px;
+      }
+      /* Today Alex Learned */
+      .sidebar-nav {
+        margin-top: 0;
+      }
+      .active a {
+        padding: 0;
+      }
+      :root {
+        /* https://cdn.jsdelivr.net/npm/docsify-themeable@0/src/scss/themes/defaults/_content.css */
+        /* https://github.com/jhildenbiddle/docsify-themeable/blob/master/docs/customization.md */
+        /* --base-font-size: 14px;
+      --theme-color   : purple; */
+        --heading-font-family: "Noto Serif KR", serif; /* 'Song Myung', serif; */
+        --heading-h1-font-size: 50px;
+      }
+      /* sidebar list */
+      /* 큰제목 */
+      ul .folder {
+        margin: 10px 0;
+        font-size: 18px;
+      }
+      /* 큰제목 밑 */
+      ul .file {
+        font-size: 15px;
+      }
+      a {
+        word-wrap: break-word;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+        name: "",
+        // repo: 'h-alex2/til',
+        loadSidebar: true,
+        alias: {
+          "/.*/_sidebar.md": "/_sidebar.md",
+        },
+        loadSidebar: true,
+        subMaxLevel: 3,
+        search: "auto",
+        search: {
+          maxAge: 86400000, // Expiration time, the default one day
+          paths: "auto",
+          placeholder: "Type to search",
+          noData: "No Results!",
+          // Headline depth, 1 - 6
+          depth: 6,
+          hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+        },
+        themeColor: "#000000",
+        loadNavbar: true,
+      };
+    </script>
+    <!-- Docsify v4 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+
+    <script src="webfont.js"></script>
+    <script src="snap.svg-min.js"></script>
+    <script src="underscore-min.js"></script>
+    <script src="sequence-diagram-min.js"></script>
+
+    <script src="//unpkg.com/mermaid/dist/mermaid.js"></script>
+    <script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script>
+    <script>mermaid.initialize({ startOnLoad: true });</script>
+  </body>
+</html>
