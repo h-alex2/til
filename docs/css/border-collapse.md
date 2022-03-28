@@ -1,4 +1,4 @@
-# 테두리 겹침 제거
+# 테이블 테두리 겹침 제거
 
 겹치는 테두리 상쇄
 `border-collapse: collapse; `
