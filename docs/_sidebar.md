@@ -1,6 +1,7 @@
 [Today Alex Learned(HOME)](/)
 * Monthly
   * [2022-03](monthly/2022/2022-03.md)
+  * [2022-04](monthly/2022/2022-04.md)
 * Javascript
   * [Array.prototype.foreach()](javascript/array/foreach.md)
   * [Array.prototype.join()](javascript/array/join.md)
