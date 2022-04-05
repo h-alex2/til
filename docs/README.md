@@ -6,3 +6,14 @@
 
 
 `docsify serve docs` : 서버 실행
+
+
+## My Rules
+1. Aribnb 코드 스타일 따르기 <https://github.com/airbnb/javascript#comparison-operators--equality>
+
+2. 커밋 메시지 <https://hyeokjaelee.github.io/good-commit-message/>
+- 📝docs: 문서 추가시 , 포스트 문서 수정시
+
+
+- refactor: 
+- fix: 
