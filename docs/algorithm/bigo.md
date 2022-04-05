@@ -31,8 +31,7 @@ arr.pop() // [1, 2, 3]
 
 ## 2. O(n) : linear time
 입력 데이터의 크기에 비례해서 처리 시간이 걸리는 알고리즘을 표현합니다. 
-<a href="https://www.doabledanny.com/big-o-notation-in-javascript" target='_blank'>
-<img src = "https://www.doabledanny.com/static/a2b0078d67cb6bcdfbbe8489a5c48b5f/93d59/5.jpg"></a>
+
 
 ```js
 const things = [ "a", "b", "c" ];
@@ -91,7 +90,7 @@ let result2 = multiplyAll([1, 2, 3, 4], [5, 3, 1, 8]) // 170
 ## 4. O(nm) quadratic time
 
 
-## 5. O(2^n) (n승) exponential time (2개씩 n번 늘어남)
+## 5. O(2^n) (n승) exponential time (2배씩 n번 늘어남)
 입력이 1 증가할 때마다 연산 수가 2배씩 증가하는 알고리즘입니다.  
 이 알고리즘은 확장성이 매우 좋지 않으므로 피하는 것이 좋지만 O(2^n)가 가장 최악의 Big O는 아닙니다.
 
@@ -127,6 +126,9 @@ fibonacci(5) // 5
 - 데이터가 커지면 커질수록 효율이 극대화됩니다.
 - 검색 / 정렬 알고리즘의 꽃이며 보통 대규모 컬렉션을 처리할 때 가장 효율적인 방법 
 - 대표적인 것 : 이진탐색(binary search), 퀵정렬, 병합정렬
+
+<a href="https://www.doabledanny.com/big-o-notation-in-javascript" target='_blank'>
+<img src = "https://www.doabledanny.com/static/a2b0078d67cb6bcdfbbe8489a5c48b5f/93d59/5.jpg"></a>
 
 Log2(16) = x  
 2^x = 16  
