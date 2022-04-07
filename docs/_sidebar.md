@@ -8,7 +8,7 @@
   * [Array.prototype.reduce()](javascript/array/reduce.md)
   * [Array.prototype.slice()](javascript/array/slice.md)
   * [Object prototypes](javascript/objectprototypes.md)
-  * [for...in](javascript/forin.md)
+  * [for...in,of, iterator, enumerable](javascript/for-in-of.md)
   * [객체](javascript/object.md)
   * [원시값](javascript/원시값.md)
   * [Closure 클로저](javascript/closure.md)
