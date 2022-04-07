@@ -7,12 +7,13 @@
   * [Array.prototype.join()](javascript/array/join.md)
   * [Array.prototype.reduce()](javascript/array/reduce.md)
   * [Array.prototype.slice()](javascript/array/slice.md)
-  * [Object prototypes](javascript/objectprototypes.md)
   * [for...in,of, iterator, enumerable](javascript/for-in-of.md)
-  * [객체](javascript/object.md)
-  * [원시값](javascript/원시값.md)
   * [Closure 클로저](javascript/closure.md)
   * [execution context 실행콘텍스트](javascript/실행컨텍스트.md)
+  * [Object prototypes](javascript/objectprototypes.md)
+  * [this](javascript/this.md)
+  * [객체](javascript/object.md)
+  * [원시값](javascript/원시값.md)
 
 * CSS
   * [CSS 프로퍼티 값의 단위](css/property-unit.md)
