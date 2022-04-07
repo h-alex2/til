@@ -10,6 +10,7 @@
 
 ## My Rules
 1. Aribnb 코드 스타일 따르기 <https://github.com/airbnb/javascript#comparison-operators--equality>
+	- 배열의 이름은 복수형으로 
 
 2. 커밋 메시지 <https://hyeokjaelee.github.io/good-commit-message/>
 - 📝docs: 문서 추가시 , 포스트 문서 수정시
@@ -17,3 +18,7 @@
 
 - refactor: 
 - fix: 
+- docs: 
+
+3. 출처 명시 
+- 포스트 이름 by 게시자 
