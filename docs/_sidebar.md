@@ -10,6 +10,7 @@
   * [for...in,of, iterator, enumerable](javascript/for-in-of.md)
   * [Closure 클로저](javascript/closure.md)
   * [execution context 실행콘텍스트](javascript/실행컨텍스트.md)
+  * [팩토리함수와 생성자함수의 차이](javascript/factoryandconstructor.md)
   * [Object prototypes](javascript/objectprototypes.md)
   * [this](javascript/this.md)
   * [객체](javascript/object.md)
