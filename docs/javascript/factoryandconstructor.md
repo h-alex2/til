@@ -12,6 +12,8 @@
 - return을 쓰지 않아도 this가 return 됩니다.
 - 생성자 함수에는 보통 return문이 없습니다. (return문이 있는 생성자 함수는 거의 없다고 합니다.)
 - 반환해야 할 것들은 모두 this에 저장되고, this는 자동으로 반환되기 때문에 반환문을 명시적으로 써 줄 필요가 없습니다.
+- 생성자 함수가 반환해주는 빈 객체는 흔히 Instance 라고 부릅니다. 
+
 
 ### `new`가 하는 일 
 1. 새로운 instance object를 인스턴스화 하고 constructor안의 this에 연결합니다.
