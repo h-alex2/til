@@ -24,3 +24,6 @@
 * Algorithm 
   * [Big O](algorithm/bigo.md)
   * [Hash Table](algorithm/hashtable.md)
+
+* 번역
+  * [Create a Next.js and MDX blog](translate/createblog.md)
