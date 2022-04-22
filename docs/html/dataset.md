@@ -22,9 +22,18 @@ HTML에서 속성이름은 data-로 시작합니다. 문자, 숫자, 대시(-), 
 JavaScript에서 사용자 정의 속성 이름은 data- 접두사가 없는 HTML 속성과 동일하고 대시(-)들은 카멜케이스로 변환됩니다.
 
 
+## 사용사례
+엘리먼트에 data-id를 적용하고 querySelector로 data-id를 선택하여 event를 적용할 수 있다.
+`document.querySelector(`[data-id="${this._id}"] > h3`)`  
+: data-id가 this._id인 엘리먼트를 선택
+또는 어떤 이유로 템플릿 리터럴을 사용하지 않으려면 다음 코드 줄을 추가하세요.
+`document.querySelector("[data-id=" + "\'" + id + "\'" + "]");`
+
 
 > 참고 출처
-> 1. [Global attributes](https://developer.mozilla.org/ko/docs/Web/HTML/Global_attributes)
-> 2. [DOMStringMap](https://developer.mozilla.org/en-US/docs/Web/API/DOMStringMap)
-> 3. [데이터 속성 사용하기](https://developer.mozilla.org/ko/docs/Learn/HTML/Howto/Use_data_attributes)
-> 4. [HTMLElement.dataset](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset)
+> 1. [Global attributes by MDN](https://developer.mozilla.org/ko/docs/Web/HTML/Global_attributes)
+> 2. [DOMStringMap by MDN](https://developer.mozilla.org/en-US/docs/Web/API/DOMStringMap)
+> 3. [데이터 속성 사용하기 by MDN](https://developer.mozilla.org/ko/docs/Learn/HTML/Howto/Use_data_attributes)
+> 4. [HTMLElement.dataset by MDN](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset)
+> 5. 모던자바스크립트 Deep Dive by 이웅모
+> 6. [Failed to execute query selector on document, id is not a valid selector by stack overflow](https://stackoverflow.com/questions/34777481/failed-to-execute-query-selector-on-document-id-is-not-a-valid-selector)
