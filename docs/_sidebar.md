@@ -7,8 +7,6 @@
   * [Array.prototype.join()](javascript/array/join.md)
   * [Array.prototype.reduce()](javascript/array/reduce.md)
   * [Array.prototype.slice()](javascript/array/slice.md)
-  * [비동기](javascript/asynchronous1.md)
-  * [비동기2](javascript/asynchronous2.md)
   * [Closure 클로저](javascript/closure.md)
   * [execution context 실행콘텍스트](javascript/실행컨텍스트.md)
   * [for...in,of, iterator, enumerable](javascript/for-in-of.md)
@@ -17,6 +15,9 @@
   * [this](javascript/this.md)
   * [객체](javascript/object.md)
   * [원시값](javascript/원시값.md)
+  * [비동기](javascript/asynchronous1.md)
+  * [비동기2](javascript/asynchronous2.md)
+  * [promise, async, await없이 병렬처리하기](javascript/parallel.md)
 
 * HTML
   * [HTMLElement.dataset](html/dataset.md)
