@@ -127,7 +127,7 @@ parallel 함수 안 for 문에서의 i는 var로 선언됐기 때문에 마지�
 그래서 var count 변수를 만들어 실행되는 순서대로 results 배열에 값을 넣어주었다.  
 
 문제 조건인 results 배열 안의 순서는 tasks의 배열 순서와 같아야 한다. 하지만 tasks 안의 함수는 setTimeout으로 인해 실행 순서가 3, 1, 2를 가지게 된다.  
-이 문제를 해결하기 위해서는 index 값을 사용해야 하는데 for 문안에서 var를 사용하게 되면 for 문안에서만 해결하는 것은 불가능하다. (다른 방법이 있으려나... 있을 수도.. 내가 모를 수도...)
+이 문제를 해결하기 위해서는 index 값을 사용해야 하는데 for 문안에서 var를 사용하게 되면 for 문안에서만 해결하는 것은 즉시실행함수 말고는 불가능하다. (다른 방법이 있으려나... 있을 수도.. 내가 모를 수도...)
 
 count의 값도 결국에는 3, 1, 2의 순서대로 실행된다. 그럼 어떻게 해야할까? 결국에는 for문에서는 i값을 함수에 전달하는 역할만 하고 for문 바깥에 함수를 만들어 i값을 전달 받아야한다.
 
@@ -155,4 +155,29 @@ function parallel(tasks, finalCallback) {
 	}
 }
 ```
-이런식으로 진행되어야 한다. (코드의 인덴팅이 거지같이 나오는데 저렇게 입력하지 않았다..왜 저렇게 삐뚤빼뚤하게 나오는것이지)
+이런식으로 진행되어야 한다. (코드의 인덴팅이 거지같이 나오는데 저렇게 입력하지 않았다..왜 저렇게 삐뚤빼뚤하게 나오는것이지)  
+
+또는 즉시실행함수를 사용하기
+
+```js
+function parallel(tasks, finalCallback) {
+  var count = 0;
+  var results = [];
+
+  if (!tasks.length) {
+    return finalCallback();
+  }
+
+  for (var i = 0; i < tasks.length; i++) {
+		(function (i) {
+			tasks[i]((result) => {
+				count++;
+				results[i] = result;
+				if (count === tasks.length) {
+					finalCallback(results);
+				}
+			})
+		})(i)
+  }
+}
+```
