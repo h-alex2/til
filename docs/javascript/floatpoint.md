@@ -99,12 +99,6 @@ console.log(a + b); // 0.30000000000000004
 소수점을 처리할 때 대부분의 경우 이 차이가 너무 작아 무시할 수 있지만 실수연산이 무조건 정확한 처리를 가져올 순 없다는 것을 염두해두어야한다는 것이겠죠.
 정확한 소수점 연산이 필요할 때는 다른 방식을 고려해야 하겠죠. 예를 들면 금용쪽의 일을 처리하나던가.... 그런..일이 있다면.. 어떻게 해야할지는 그 때 가서 다시 공부를... 
 
-[프로그래밍에서 정확한 소수점 계산은 어떻게 할까?](https://medium.com/@pranne1224/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%97%90%EC%84%9C-%EC%A0%95%ED%99%95%ED%95%9C-%EC%86%8C%EC%88%98%EC%A0%90-%EA%B3%84%EC%82%B0%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%A0%EA%B9%8C-2a61fa60e002)
-
-[자바스크립트의 기본적인 연산 - 숫자와 연산자 by mdn](https://developer.mozilla.org/ko/docs/Learn/JavaScript/First_steps/Math)
-[JavaScript Number Reference](https://www.w3schools.com/jsref/jsref_obj_number.asp)
-
-
 밑에서는 실수를 처리하는 방법인 고정 소수점, 부동소수점에 대해서 조금만.. 알아보겠습니다.
 
 ## 고정 소수점 fixed point
@@ -125,7 +119,7 @@ IEEE 754는 전기 전자 기술자 협회 (IEEE)에서 개발한 __컴퓨터에
 IEEE 754의 부동 소수점 표현은 크게 세 부분으로 구성되는데, 최상위 비트는 부호를 표시하는 데 사용되며, 지수 부분(exponent)과 가수 부분(fraction/mantissa)이 있습니다.
 
 <a href = "https://commons.wikimedia.org/wiki/File:General_floating_point_ko.svg" target = "_blank">
-<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/General_floating_point_ko.svg/750px-General_floating_point_ko.svg.png?20130725074047"><?a>
+<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/General_floating_point_ko.svg/750px-General_floating_point_ko.svg.png?20130725074047"></a>
 ( 맨 앞자리는 부호를 표시하는 데 사용되는데 1이면 음수 0이면 양수입니다.)
 
 - 정확도 문제
@@ -138,5 +132,10 @@ IEEE 754의 부동 소수점 표현은 크게 세 부분으로 구성되는데, 
 ## 부동소수점 방식의 오차
 부동 소수점 방식으로 표현하는 실수는 항상 오차가 존재하는 단점을 가지고 있습니다. 컴퓨터에서 실수를 표현할 때는 정확한 표현이 아닌 근사치를 표현하게 됩니다.
 
-[부동소수점 by wikipedia](https://ko.wikipedia.org/wiki/%EB%B6%80%EB%8F%99%EC%86%8C%EC%88%98%EC%A0%90#IEEE%EC%9D%98_%EB%B6%80%EB%8F%99%EC%86%8C%EC%88%98%EC%A0%90_%EB%B0%A9%EC%8B%9D)
 
+
+> 참조 및 출처
+> - [부동소수점 by wikipedia](https://ko.wikipedia.org/wiki/%EB%B6%80%EB%8F%99%EC%86%8C%EC%88%98%EC%A0%90#IEEE%EC%9D%98_%EB%B6%80%EB%8F%99%EC%86%8C%EC%88%98%EC%A0%90_%EB%B0%A9%EC%8B%9D)
+> - [프로그래밍에서 정확한 소수점 계산은 어떻게 할까?](https://medium.com/@pranne1224/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%97%90%EC%84%9C-%EC%A0%95%ED%99%95%ED%95%9C-%EC%86%8C%EC%88%98%EC%A0%90-%EA%B3%84%EC%82%B0%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%A0%EA%B9%8C-2a61fa60e002)
+> - [자바스크립트의 기본적인 연산 - 숫자와 연산자 by mdn](https://developer.mozilla.org/ko/docs/Learn/JavaScript/First_steps/Math)
+> - [JavaScript Number Reference](https://www.w3schools.com/jsref/jsref_obj_number.asp)
