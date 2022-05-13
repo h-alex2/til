@@ -36,5 +36,5 @@
   * [Tree](algorithm/tree.md)
   * [Sort](algorithm/sort.md)
 
-* 번역
-  * [Create a Next.js and MDX blog](translate/createblog.md)
+<!-- * 번역
+  * [Create a Next.js and MDX blog](translate/createblog.md) -->
