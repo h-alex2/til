@@ -17,7 +17,8 @@
   * [객체](javascript/object.md)
   * [원시값](javascript/원시값.md)
   * [비동기](javascript/asynchronous1.md)
-  * [비동기2](javascript/asynchronous2.md)
+  * [promise와 await](javascript/promise-async.md)
+  <!-- * [비동기2](javascript/asynchronous2.md) -->
   * [promise, async, await없이 병렬처리하기](javascript/parallel.md)
   * [0.1 + 0.2 !== 0.3](javascript/floatpoint.md)
 
