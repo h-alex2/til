@@ -291,7 +291,7 @@ userStorage
 ## async, await
 - syntactic sugar라고 하는 것 중 하나다. (대표적인 신택스 슈가는 class가 있다.)
 
-- 함수 앞에 async를 붙여주면 promise를 쓰지 않아도 자동적으로 promise를 만들어준다.
+- await 구문을 실행하는 함수는 앞에 async 를 붙여줘야 한다.
 
 - 함수의 반환 값이 바뀐다. 일반적인 함수와 달리 async 함수는 항상 Promise 객체를 반환한다.
 
@@ -377,3 +377,10 @@ async function bar() {
   }
 }
 ```
+
+> 참고 출처
+> [Introducing asynchronous JavaScript](https://developer.mozilla.org/ko/docs/Learn/JavaScript/Asynchronous/Introducing#asynchronous_javascript)
+> [자바스크립트 12. 프로미스 개념부터 활용까지 JavaScript Promise | 프론트엔드 개발자 입문편 (JavaScript ES6)](https://youtu.be/JB_yU6Oe2eE)
+> [자바스크립트 13. 비동기의 꽃 JavaScript async 와 await 그리고 유용한 Promise APIs | 프론트엔드 개발자 입문편 (JavaScript ES6)](https://youtu.be/aoQSOZfz3vQ)
+> [콜백](https://ko.javascript.info/callbacks)
+> 바코더클럽
