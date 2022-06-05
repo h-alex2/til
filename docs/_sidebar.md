@@ -4,12 +4,18 @@
   * [2022-04](monthly/2022/2022-04.md)
   * [2022-05](monthly/2022/2022-05.md)
   * [2022-06](monthly/2022/2022-06.md)
+
+* Learning English
+  * [2022-06](learning-english/eng-2022-06.md)
+
+
 * Javascript
   * [Array.prototype.foreach()](javascript/array/foreach.md)
   * [Array.prototype.join()](javascript/array/join.md)
   * [Array.prototype.reduce()](javascript/array/reduce.md)
   * [Array.prototype.slice()](javascript/array/slice.md)
   * [Closure 클로저](javascript/closure.md)
+  * [debounce, throttle 구현해보기](javascript/debounce.md)
   * [execution context 실행콘텍스트](javascript/실행컨텍스트.md)
   * [for...in,of, iterator, enumerable](javascript/for-in-of.md)
   * [팩토리함수와 생성자함수의 차이](javascript/factoryandconstructor.md)
