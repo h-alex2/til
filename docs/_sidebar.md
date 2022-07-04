@@ -4,6 +4,7 @@
   * [2022-04](monthly/2022/2022-04.md)
   * [2022-05](monthly/2022/2022-05.md)
   * [2022-06](monthly/2022/2022-06.md)
+  * [2022-07](monthly/2022/2022-07.md)
 
 * Learning English
   * [2022-06](learning-english/eng-2022-06.md)
