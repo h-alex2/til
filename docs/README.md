@@ -11,9 +11,10 @@
 
 ## My Rules
 1. Airbnb 코드 스타일 따르기 <https://github.com/airbnb/javascript#comparison-operators--equality>
-	- 배열의 이름은 복수형으로 
+  - 배열의 이름은 복수형으로 
 
 2. 커밋 메시지 <https://hyeokjaelee.github.io/good-commit-message/>
+- [좋은 git commit 메시지를 위한 영어 사전](https://blog.ull.im/engineering/2019/03/10/logs-on-git.html)
 - 📝docs: 문서 추가시 , 포스트 문서 수정시
 
 
