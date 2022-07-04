@@ -1,4 +1,4 @@
-[Today Alex Learned(HOME)](/)
+<!-- [Today Alex Learned(HOME)](/) -->
 * Monthly
   * [2022-03](monthly/2022/2022-03.md)
   * [2022-04](monthly/2022/2022-04.md)
