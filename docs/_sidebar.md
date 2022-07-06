@@ -10,11 +10,11 @@
   * [2022-06](learning-english/eng-2022-06.md)
   * [2022-07](learning-english/eng-2022-07.md)
 
-* React
+<!-- * React
   * [React 공식문서](react/react.md)
-  * [한입 크기로 잘라먹는 리액트](react/한입강의.md)
+  * [한입 크기로 잘라먹는 리액트](react/한입강의.md) -->
 
-* Javascript
+<!-- * Javascript
   * [Array.prototype.foreach()](javascript/array/foreach.md)
   * [Array.prototype.join()](javascript/array/join.md)
   * [Array.prototype.reduce()](javascript/array/reduce.md)
@@ -30,18 +30,18 @@
   * [원시값](javascript/원시값.md)
   * [비동기](javascript/asynchronous1.md)
   * [promise와 await](javascript/promise-async.md)
-  <!-- * [비동기2](javascript/asynchronous2.md) -->
+  * [비동기2](javascript/asynchronous2.md)
   * [promise, async, await없이 병렬처리하기](javascript/parallel.md)
-  * [0.1 + 0.2 !== 0.3](javascript/floatpoint.md)
+  * [0.1 + 0.2 !== 0.3](javascript/floatpoint.md) -->
 
-* HTML
-  * [HTMLElement.dataset](html/dataset.md)
+<!-- * HTML
+  * [HTMLElement.dataset](html/dataset.md) -->
 
 
-* CSS
+<!-- * CSS
   * [CSS 프로퍼티 값의 단위](css/property-unit.md)
   * [박스 모델](css/box-model.md)
-  * [display, visibility, opacity](css/display.md)
+  * [display, visibility, opacity](css/display.md) -->
 
 * Algorithm 
   * [Big O](algorithm/bigo.md)
